@@ -1,3 +1,4 @@
+using HotelListing.API.Configurations.Mapping;
 using HotelListing.API.Data;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
@@ -24,6 +25,8 @@ builder.Services.AddDbContext<HotelListingDbContext>(opt =>
 {
     opt.UseSqlServer(connectionString);
 });
+
+builder.Services.AddAutoMapper(typeof(MapperConfig));
 
 var app = builder.Build();
 
