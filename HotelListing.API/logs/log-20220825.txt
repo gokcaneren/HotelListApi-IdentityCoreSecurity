@@ -72,3 +72,13 @@ HotelListing.API.Data.Hotel -> HotelListing.API.Models.Hotels.HotelDto
 2022-08-25 13:09:38.257 +03:00 [INF] Application started. Press Ctrl+C to shut down.
 2022-08-25 13:09:38.259 +03:00 [INF] Hosting environment: Development
 2022-08-25 13:09:38.260 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-25 14:33:50.297 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-25 14:33:50.343 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-25 14:33:50.350 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-25 14:33:50.351 +03:00 [INF] Hosting environment: Development
+2022-08-25 14:33:50.352 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-25 14:38:21.172 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-25 14:38:21.222 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-25 14:38:21.229 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-25 14:38:21.231 +03:00 [INF] Hosting environment: Development
+2022-08-25 14:38:21.232 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
