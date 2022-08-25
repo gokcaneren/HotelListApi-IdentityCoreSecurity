@@ -25,9 +25,11 @@ namespace HotelListing.API.Controllers
 
         // GET: api/Countries
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Country>>> GetCountries()
+        public async Task<ActionResult<IEnumerable<GetCountryDto>>> GetCountries()
         {
-            return await _context.Countries.ToListAsync();
+            var countries= await _context.Countries.ToListAsync();
+            var result = _mapper.Map<IList<GetCountryDto>>(countries);
+            return Ok(result);
         }
 
         // GET: api/Countries/5
@@ -80,11 +82,11 @@ namespace HotelListing.API.Controllers
         [HttpPost]
         public async Task<ActionResult<Country>> PostCountry(CreateCountryDto createCountryDto)
         {
-            var countryOld = new Country
-            {
-                Name = createCountryDto.Name,
-                ShortName = createCountryDto.ShortName
-            };
+            //var countryOld = new Country
+            //{
+            //    Name = createCountryDto.Name,
+            //    ShortName = createCountryDto.ShortName
+            //};
 
             var country = _mapper.Map<Country>(createCountryDto);
 

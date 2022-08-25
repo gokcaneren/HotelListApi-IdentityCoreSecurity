@@ -9,6 +9,7 @@ namespace HotelListing.API.Configurations.Mapping
         public MapperConfig()
         {
             CreateMap<Country, CreateCountryDto>().ReverseMap();
+            CreateMap<Country, GetCountryDto>().ReverseMap();
         }
     }
 }
