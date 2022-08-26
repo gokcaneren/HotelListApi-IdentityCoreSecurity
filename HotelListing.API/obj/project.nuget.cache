@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iVDJ7wKhpELP26liojQ6aliiVcDpUNyLXeWja5+esVPri7TfqEtfgRscdYUn69MMdFTn3yIDSbqXIOPOgRjDkA==",
+  "dgSpecHash": "HLr872M8hxgVXTVWfMFCqu5aFOlXUq3GiWtiNNdynnxvhRV31nOcCBzkCtflaZgfQz8AoSYMe/rN3oOVmOVgLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gok\\Desktop\\c# console proje\\HotelListing\\HotelListing.API\\HotelListing.API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,9 @@
     "C:\\Users\\Gok\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\Gok\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.8\\microsoft.aspnetcore.cryptography.internal.6.0.8.nupkg.sha512",
+    "C:\\Users\\Gok\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.8\\microsoft.aspnetcore.cryptography.keyderivation.6.0.8.nupkg.sha512",
+    "C:\\Users\\Gok\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.8\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.8.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.build\\17.0.0\\microsoft.build.17.0.0.nupkg.sha512",
@@ -53,6 +56,8 @@
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.0.0\\microsoft.extensions.dependencymodel.3.0.0.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.8\\microsoft.extensions.fileproviders.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.8\\microsoft.extensions.hosting.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\Gok\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.8\\microsoft.extensions.identity.core.6.0.8.nupkg.sha512",
+    "C:\\Users\\Gok\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.8\\microsoft.extensions.identity.stores.6.0.8.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
