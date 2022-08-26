@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using HotelListing.API.Data.Configurations;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace HotelListing.API.Data
@@ -17,49 +18,9 @@ namespace HotelListing.API.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Country>().HasData(
-                new Country
-                {
-                    Id=1,
-                    Name="Turkey",
-                    ShortName="TR"
-                },
-                new Country
-                {
-                    Id = 2,
-                    Name = "England",
-                    ShortName = "ENG"
-                },
-                new Country
-                {
-                    Id = 3,
-                    Name = "United State",
-                    ShortName = "USA"
-                }
-                );
-
-            modelBuilder.Entity<Hotel>().HasData(
-                new Hotel
-                {
-                    Id=1,
-                    Name="Blue Hotel",
-                    Rating=4.3,
-                    CountryId=1
-                },
-                 new Hotel
-                 {
-                     Id = 2,
-                     Name = "Hilton Hotel",
-                     Rating = 4.5,
-                     CountryId = 2
-                 }, new Hotel
-                 {
-                     Id = 3,
-                     Name = "NVme Hotel",
-                     Rating = 4.0,
-                     CountryId = 3
-                 }
-                );
+            modelBuilder.ApplyConfiguration(new RoleConfiguration());
+            modelBuilder.ApplyConfiguration(new CountryConfiguration());
+            modelBuilder.ApplyConfiguration(new HotelConfiguration());
         }
     }
 }
