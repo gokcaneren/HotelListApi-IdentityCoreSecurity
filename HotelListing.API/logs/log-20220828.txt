@@ -1,0 +1,6 @@
+2022-08-28 14:32:00.902 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-28 14:32:00.951 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-28 14:32:00.956 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-28 14:32:00.957 +03:00 [INF] Hosting environment: Development
+2022-08-28 14:32:00.958 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-28 14:33:24.326 +03:00 [WRN] User validation failed: DuplicateUserName.
