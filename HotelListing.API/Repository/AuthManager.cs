@@ -79,7 +79,7 @@ namespace HotelListing.API.Repository
                 audience: _configuration["JwtSettings:Audience"],
                 claims:claims,
                 expires:DateTime.Now.AddMinutes(Convert.ToInt32(
-                    _configuration["JwtSettings:DuretionInMinutes"])),
+                    _configuration["JwtSettings:DurationInMinutes"])),
                 signingCredentials:credentials
                 );
 
