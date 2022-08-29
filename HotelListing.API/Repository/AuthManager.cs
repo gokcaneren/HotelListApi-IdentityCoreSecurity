@@ -19,16 +19,21 @@ namespace HotelListing.API.Repository
         public async Task<bool> Login(LoginDto loginDto)
         {
             bool isValidUser = false;
-            try
-            {
-                var user = await _userManager.FindByEmailAsync(loginDto.Email);
-                isValidUser = await _userManager.CheckPasswordAsync(user, loginDto.Password);
-            }
-            catch (Exception)
-            {
+            
+            var user = await _userManager.FindByEmailAsync(loginDto.Email);
 
-                throw;
+            if (user is null)
+            {
+                return default;
             }
+
+            isValidUser = await _userManager.CheckPasswordAsync(user, loginDto.Password);
+
+            if (!isValidUser)
+            {
+                return default;
+            }
+        
             return isValidUser;
         }
 
