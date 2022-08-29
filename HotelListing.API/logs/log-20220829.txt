@@ -149,3 +149,8 @@
 2022-08-29 14:11:02.364 +03:00 [INF] Application started. Press Ctrl+C to shut down.
 2022-08-29 14:11:02.365 +03:00 [INF] Hosting environment: Development
 2022-08-29 14:11:02.365 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 14:31:24.391 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 14:31:24.454 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 14:31:24.459 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 14:31:24.460 +03:00 [INF] Hosting environment: Development
+2022-08-29 14:31:24.461 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\

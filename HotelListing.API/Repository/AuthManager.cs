@@ -85,5 +85,20 @@ namespace HotelListing.API.Repository
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
+        public async Task<IEnumerable<IdentityError>> RegisterAdmin(ApiUserDto userDto)
+        {
+            var user = _mapper.Map<ApiUser>(userDto);
+            user.UserName = userDto.Email;
+
+            var result = await _userManager.CreateAsync(user, userDto.Password);
+
+            if (result.Succeeded)
+            {
+                await _userManager.AddToRoleAsync(user, "Administrator");
+            }
+
+            return result.Errors;
+        }
     }
 }
