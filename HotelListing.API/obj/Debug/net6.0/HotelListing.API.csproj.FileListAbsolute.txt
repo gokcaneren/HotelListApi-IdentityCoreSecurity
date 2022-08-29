@@ -279,3 +279,4 @@ C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\ne
 C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
