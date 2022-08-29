@@ -3,3 +3,93 @@
 2022-08-29 09:54:38.492 +03:00 [INF] Application started. Press Ctrl+C to shut down.
 2022-08-29 09:54:38.493 +03:00 [INF] Hosting environment: Development
 2022-08-29 09:54:38.494 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 10:59:50.204 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 10:59:50.246 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 10:59:50.257 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 10:59:50.258 +03:00 [INF] Hosting environment: Development
+2022-08-29 10:59:50.259 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:01:03.395 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:01:46.420 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:02:18.844 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:02:46.116 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:03:23.510 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:03:23.552 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:03:23.558 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:03:23.559 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:03:23.561 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:03:41.903 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:12:36.557 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:12:36.596 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:12:36.602 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:12:36.603 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:12:36.604 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:12:49.880 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:13:35.756 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:13:38.356 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:13:38.809 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:13:39.015 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:13:39.200 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:14:10.398 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:14:10.440 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:14:10.445 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:14:10.446 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:14:10.447 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:14:27.242 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:14:49.743 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:15:37.938 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:15:37.996 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:15:38.005 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:15:38.007 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:15:38.008 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:15:57.843 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:16:47.749 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:16:47.790 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:16:47.795 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:16:47.796 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:16:47.797 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:16:53.413 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:21:24.479 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:21:24.518 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:21:24.524 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:21:24.525 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:21:24.526 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:21:32.465 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:21:49.687 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:21:49.730 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:21:49.736 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:21:49.737 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:21:49.738 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:21:56.329 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:22:36.680 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:22:36.750 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:22:36.757 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:22:36.757 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:22:36.758 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:22:40.862 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:23:09.978 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:23:10.031 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:23:10.037 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:23:10.038 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:23:10.039 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:24:03.245 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:29:00.542 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:29:00.583 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:29:00.589 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:29:00.590 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:29:00.591 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:30:14.887 +03:00 [WRN] Invalid password for user.
+2022-08-29 11:35:08.630 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:35:08.682 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:35:08.688 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:35:08.688 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:35:08.689 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:35:34.334 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:35:34.378 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:35:34.383 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:35:34.385 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:35:34.386 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-29 11:46:41.924 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-29 11:46:41.965 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-29 11:46:41.972 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-29 11:46:41.972 +03:00 [INF] Hosting environment: Development
+2022-08-29 11:46:41.973 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
