@@ -233,3 +233,8 @@ HotelListing.API.Exceptions.NotFoundException: Hotel with id:21 not found!
 2022-08-30 13:45:08.281 +03:00 [INF] Application started. Press Ctrl+C to shut down.
 2022-08-30 13:45:08.282 +03:00 [INF] Hosting environment: Development
 2022-08-30 13:45:08.283 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
+2022-08-30 14:03:23.839 +03:00 [INF] Now listening on: https://localhost:7269
+2022-08-30 14:03:23.891 +03:00 [INF] Now listening on: http://localhost:5269
+2022-08-30 14:03:23.897 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-30 14:03:23.898 +03:00 [INF] Hosting environment: Development
+2022-08-30 14:03:23.899 +03:00 [INF] Content root path: C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\
