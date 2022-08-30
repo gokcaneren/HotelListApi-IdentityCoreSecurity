@@ -11,10 +11,11 @@ namespace HotelListing.API.Controllers
     public class AccountController : ControllerBase
     {
         private readonly IAuthManager _authManager;
-
-        public AccountController(IAuthManager authManager)
+        private readonly ILogger<AccountController> _logger;
+        public AccountController(IAuthManager authManager, ILogger<AccountController> logger)
         {
             _authManager = authManager;
+            _logger = logger;
         }
 
         // Post: api/Account/register
@@ -25,17 +26,29 @@ namespace HotelListing.API.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<IActionResult> Register([FromBody] ApiUserDto apiUserDto)
         {
-            var errors = await _authManager.Register(apiUserDto);
-
-            if (errors.Any())
+            _logger.LogInformation($"Registration attempt for {apiUserDto.Email}");
+            try
             {
-                foreach (var error in errors)
+                var errors = await _authManager.Register(apiUserDto);
+
+                if (errors.Any())
                 {
-                    ModelState.AddModelError(error.Code, error.Description);
+                    foreach (var error in errors)
+                    {
+                        ModelState.AddModelError(error.Code, error.Description);
+                    }
+                    return BadRequest(ModelState);
                 }
-                return BadRequest(ModelState);
+
+                return Ok();
             }
-            return Ok();
+            catch (Exception er)
+            {
+                _logger.LogError(er, $"Something went wrong in the {nameof(Register)}- " +
+                    $"User registration attempt for {apiUserDto.Email}");
+                return Problem($"Something went wrong in the {nameof(Register)}", statusCode: 500);
+            }
+            
         }
 
         [HttpPost]
@@ -46,17 +59,28 @@ namespace HotelListing.API.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<IActionResult> RegisterAdmin([FromBody] ApiUserDto apiUserDto)
         {
-            var errors = await _authManager.RegisterAdmin(apiUserDto);
-
-            if (errors.Any())
+            _logger.LogInformation($"Registration attempt to admin account for {apiUserDto.Email}");
+            try
             {
-                foreach (var error in errors)
+                var errors = await _authManager.RegisterAdmin(apiUserDto);
+
+                if (errors.Any())
                 {
-                    ModelState.AddModelError(error.Code, error.Description);
+                    foreach (var error in errors)
+                    {
+                        ModelState.AddModelError(error.Code, error.Description);
+                    }
+                    return BadRequest(ModelState);
                 }
-                return BadRequest(ModelState);
+                return Ok();
             }
-            return Ok();
+            catch (Exception er)
+            {
+                _logger.LogError(er, $"Something went wrong in the {nameof(RegisterAdmin)}" +
+                    $"Admin registration attempt for {apiUserDto.Email}");
+                return Problem($"Something went wrong in the {nameof(RegisterAdmin)}", statusCode: 500);
+            }
+            
         }
         // Post: api/Account/login
         [HttpPost]
