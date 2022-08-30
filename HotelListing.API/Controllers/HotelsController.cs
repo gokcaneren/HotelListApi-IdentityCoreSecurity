@@ -10,6 +10,7 @@ using HotelListing.API.Contracts;
 using AutoMapper;
 using HotelListing.API.Models.Hotels;
 using Microsoft.AspNetCore.Authorization;
+using HotelListing.API.Exceptions;
 
 namespace HotelListing.API.Controllers
 {
@@ -41,7 +42,7 @@ namespace HotelListing.API.Controllers
 
             if (hotel == null)
             {
-                return NotFound();
+                throw new NotFoundException($"Hotel with id:{id} not found!");
             }
 
             return Ok(_mapper.Map<HotelDto>(hotel));
@@ -62,7 +63,7 @@ namespace HotelListing.API.Controllers
             var hotel = await _repository.GetByIdAsync(id);
             if (hotel == null)
             {
-                return NotFound();
+                throw new NotFoundException($"Hotel with id:{id} not found!");
             }
 
             _mapper.Map(updateHotelDto, hotel);
@@ -106,7 +107,7 @@ namespace HotelListing.API.Controllers
             var hotel = await _repository.GetByIdAsync(id);
             if (hotel == null)
             {
-                return NotFound();
+                throw new NotFoundException($"Hotel with id:{id} not found!");
             }
 
             await _repository.DeleteAsync(id);
