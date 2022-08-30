@@ -27,9 +27,7 @@ namespace HotelListing.API.Controllers
         public async Task<IActionResult> Register([FromBody] ApiUserDto apiUserDto)
         {
             _logger.LogInformation($"Registration attempt for {apiUserDto.Email}");
-            try
-            {
-                var errors = await _authManager.Register(apiUserDto);
+            var errors = await _authManager.Register(apiUserDto);
 
                 if (errors.Any())
                 {
@@ -41,14 +39,6 @@ namespace HotelListing.API.Controllers
                 }
 
                 return Ok();
-            }
-            catch (Exception er)
-            {
-                _logger.LogError(er, $"Something went wrong in the {nameof(Register)}- " +
-                    $"User registration attempt for {apiUserDto.Email}");
-                return Problem($"Something went wrong in the {nameof(Register)}", statusCode: 500);
-            }
-            
         }
 
         [HttpPost]
@@ -60,9 +50,7 @@ namespace HotelListing.API.Controllers
         public async Task<IActionResult> RegisterAdmin([FromBody] ApiUserDto apiUserDto)
         {
             _logger.LogInformation($"Registration attempt to admin account for {apiUserDto.Email}");
-            try
-            {
-                var errors = await _authManager.RegisterAdmin(apiUserDto);
+            var errors = await _authManager.RegisterAdmin(apiUserDto);
 
                 if (errors.Any())
                 {
@@ -72,16 +60,10 @@ namespace HotelListing.API.Controllers
                     }
                     return BadRequest(ModelState);
                 }
-                return Ok();
-            }
-            catch (Exception er)
-            {
-                _logger.LogError(er, $"Something went wrong in the {nameof(RegisterAdmin)}" +
-                    $"Admin registration attempt for {apiUserDto.Email}");
-                return Problem($"Something went wrong in the {nameof(RegisterAdmin)}", statusCode: 500);
-            }
+            return Ok();
             
         }
+            
         // Post: api/Account/login
         [HttpPost]
         [Route("login")]
