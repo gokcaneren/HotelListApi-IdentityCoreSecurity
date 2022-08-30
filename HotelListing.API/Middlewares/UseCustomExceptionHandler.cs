@@ -25,9 +25,9 @@ namespace HotelListing.API.Middlewares
 
                     context.Response.StatusCode = statusCode;
 
-                    var response = context.Response;
+                    var response = context.Response.StatusCode;
 
-                    await context.Response.WriteAsync(JsonSerializer.Serialize(response));
+                    await context.Response.WriteAsync(JsonSerializer.Serialize(response + $": {exceptionFeature.Error.Message}"));
                 });
             });
         }
