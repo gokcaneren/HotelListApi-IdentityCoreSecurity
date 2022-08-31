@@ -282,3 +282,8 @@ C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\ne
 C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.OData.dll
+C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.OData.Core.dll
+C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.OData.Edm.dll
+C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
+C:\Users\Gok\Desktop\c# console proje\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.Spatial.dll
